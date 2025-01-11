@@ -1,3 +1,10 @@
 body{
-    background-color: #f6f6f6;
+    background-color: #DDe6ed;
+    color: #27374d;
+    padding: 2%;
+    text-align: center;
+}
+
+h3{
+    font-size: 4rem;
 }
