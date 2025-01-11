@@ -3,7 +3,7 @@ console.log(botao)
 botao.addEventListener("click",somarUm)
 
 function somarUm(){
-    let elementoH3 = document.querySelector("h3")
+    let elementoH3 = document.getElementById("valor")
     let valor = parseInt(elementoH3.textContent)
     let novoValor = valor + 1
     elementoH3.textContent = novoValor
